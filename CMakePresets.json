@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "default",
+      "displayName": "Default Config",
+      "description": "Default build settings",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "CMAKE_PREFIX_PATH": "/home/buby/Qt/6.9.2/gcc_64",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    }
+  ]
+}
